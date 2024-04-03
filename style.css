@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    height: 100vh;
+    width: 100vw;
+}
+
+p
+{
+    color: rgba(255, 255, 255, 0.74);
+    padding: 10px;
+}
+
+header
+
+{
+
+    text-align: center;
+    background-color: black;
+    background-image: url('imagens/banner.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    border-bottom: 1px solid rgb(33, 96, 155);
+}
+
+.especial
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(33, 96, 155);
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+header a
+{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: small;
+    text-decoration: none;
+    border: 2px solid ;
+    color:  rgb(33, 96, 155) ;
+    padding: 15px;
+    margin: 20px;
+
+}
+
+main
+{
+    background-color: black;
+    text-align: center;
+}
+
+main h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(33, 96, 155);
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+main p 
+{
+    padding: 50px;
+
+}
+
+.t
+{
+    color: rgb(33, 96, 155) ;
+    padding: 10px;
+}
+
+.t a 
+{
+    width: 400px;
+    text-align: center;
+    background-color: rgb(43, 43, 43);
+    box-shadow: inset 2px 2px 5px black;
+    display: inline-block;
+}
+
+.t p 
+{
+    font-size: small;
+}
+
+.mbotao
+{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-decoration: none;
+    border: 2px solid ;
+    border-radius: 20px;
+    color:  rgb(33, 96, 155) ;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.mulher
+{
+    height: 300px;
+    background-image: url('imagens/woman-code.png');
+    background-position: center;
+    background-size: cover;
+    border-top: 1px solid rgb(33, 96, 155);
+    border-bottom: 1px solid rgb(33, 96, 155);
+}
+
+.homen
+{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-image: url('imagens/professional-challenges.png');
+    background-position: center;
+    background-size: cover;
+
+}
+
+footer
+{
+    border-top: 1px solid rgb(33, 96, 155);
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to top , rgb(33, 96, 155) ,black);
+}
+
+footer p
+{
+    color: white;
+}
